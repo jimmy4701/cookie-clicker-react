@@ -8,9 +8,10 @@ export type ShopItemType = {
 }
 
 const shop_items = [
-  {name: "Grand mère", price: 100, cps: 1},
-  {name: "Ferme à cookie", price: 1000, cps: 10},
-  {name: "Usine à cookie", price: 10000, cps: 100},
+  {name: "Grand mère", price: 100, cps: 1, image_url: "https://orteil.dashnet.org/cookieclicker/img/grandma.png"},
+  {name: "Ferme à cookie", price: 1000, cps: 10, image_url: "https://orteil.dashnet.org/cookieclicker/img/farm.png"},
+  {name: "Usine à cookie", price: 10000, cps: 100, image_url: "https://orteil.dashnet.org/cookieclicker/img/factory.png"},
+  {name: "Banque cookie", price: 80000, cps: 800, image_url: "https://orteil.dashnet.org/cookieclicker/img/bank.png"},
 ]
 
 const App = () => {
