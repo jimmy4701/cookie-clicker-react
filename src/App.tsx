@@ -29,7 +29,7 @@ const App = () => {
           alt="cookie" />
       </div>
       <div className="flex-1 bg-red-100">items</div>
-      <div className="flex-1 bg-blue-100">
+      <div className="flex-1 flex flex-col p-2 gap-3">
         {shop_items.map(item => {
           return <ShopItem item={item} />
         })}
